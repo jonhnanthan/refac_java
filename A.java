@@ -1,15 +1,12 @@
 public class A {
 
     public void b() {
-        int[] a = m();
+        int[] a1 = new int[]{19, 99};
+        int[] a = a1;
     }
 
     public void c() {
-        int[] a = m();
-    }
-
-    private int[] m() {
-        int[] a = new int[]{19, 99};
-        return a;
+        int[] a1 = new int[]{19, 99};
+        int[] a = a1;
     }
 }
